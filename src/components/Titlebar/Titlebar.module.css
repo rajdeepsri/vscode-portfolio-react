@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+    background-color: #1F2428;
+    height: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.logo {
+    width: 1.25rem;
+}
+
+.left_div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.options {
+    list-style: none;
+    display: flex;
+}
+
+.options li {
+    cursor: default;
+    color: #bfbfbf;
+    font-weight: 300;
+    padding: 0.25rem 0.3rem;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.options li:hover {
+    transition: 0.15s;
+    color: white;
+    background-color: #2f373d;
+}
+
+.middle_div {
+    margin-right: 15rem;
+}
+
+.right_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 6rem;
+}
+
+.right_div div {
+    background-color: #5c5c5c;
+}
+
+.icon {
+    width: 100%;
+    height: 100%;
+    padding: 9px;
+    transition: 0.3s;
+}
+
+.icon:hover {
+    background-color: #5c5c5c;
+}
+
+.cross_icon:hover {
+    background-color: #ff0000;
+}

@@ -1,0 +1,26 @@
+.container {
+    /* width: 3.25rem; */
+    height: calc(100vh - 2rem);
+    background-color: #24292E;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inner_div {
+    display: flex;
+    flex-direction: column;
+    margin: 0.75rem 0.85rem;
+    gap: 1.25rem;
+}
+
+.icon {
+    cursor: pointer;
+    color: gray;
+    font-size: 1.65rem;
+}
+
+.icon:hover {
+    transition: 0.1s;
+    color: white;
+}
