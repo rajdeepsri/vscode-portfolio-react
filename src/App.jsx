@@ -8,7 +8,7 @@ const App = () => {
       <Titlebar />
       <div style={{ display: "flex" }}>
         <Sidebar />
-        {/* <Explorer /> */}
+        <Explorer />
         <div style={{ width: "100%" }}>
           {/* <Tabsbar /> */}
           <Routes>
@@ -21,7 +21,7 @@ const App = () => {
           </Routes>
         </div>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </BrowserRouter>
   );
 };

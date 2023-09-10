@@ -1,0 +1,42 @@
+.container {
+    background-color: #181816;
+    height: 1.5rem;
+    border-top: 0.5px solid #313131;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.innerDiv {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    margin-right: 0.5rem;
+}
+
+.remote_icon {
+    background-color: #0576D6;
+    padding: 0 0.75rem;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    cursor: pointer;
+}
+
+.div_icon {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    height: 100%;
+    padding: 0 0.25rem;
+}
+
+.div_icon p {
+    font-size: 0.75rem;
+}
+
+.div_icon:hover {
+    background-color: #2e2e2e;
+}
