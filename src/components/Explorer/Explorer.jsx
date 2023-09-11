@@ -19,7 +19,7 @@ const Explorer = () => {
   return (
     <div className={classes.container}>
       <h2 className={classes.title}>EXPLORER</h2>
-      <ul>
+      <ul className={classes.list}>
         {list.map((item, idx) => (
           <li key={idx}>
             <img src={item.icon} alt="icon" />

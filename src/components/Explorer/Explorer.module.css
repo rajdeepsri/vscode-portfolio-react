@@ -1,8 +1,6 @@
 .container {
-    min-width: 15rem;
     width: 15rem;
     background-color: #181818;
-    height: calc(100vh - 3.5rem);
     color: white;
     border-right: 0.5px solid #313131;
 }
@@ -15,7 +13,7 @@
     padding-left: 1rem;
 }
 
-ul li {
+.list li {
     list-style: none;
     font-weight: 400;
     font-size: 0.9rem;
@@ -27,11 +25,11 @@ ul li {
     gap: 0.5rem;
 }
 
-ul li img {
+.list li img {
     width: 1rem;
 }
 
-ul li:hover {
+.list li:hover {
     transition: 0.1s;
     background-color: #303030;
 

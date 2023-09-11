@@ -1,0 +1,28 @@
+.container {
+    background-color: #181818;
+    color: white;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+}
+
+.list_item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.85rem;
+    padding: 0.45rem 1.5rem;
+    background-color: #181818;
+    cursor: pointer;
+    border-right: 0.5px solid #313131;
+}
+
+.list_item img {
+    width: 1.1rem;
+}
+
+.blue_bar {
+    height: 1.5px;
+}

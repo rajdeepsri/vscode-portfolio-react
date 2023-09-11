@@ -10,7 +10,7 @@ const App = () => {
         <Sidebar />
         <Explorer />
         <div style={{ width: "100%" }}>
-          {/* <Tabsbar /> */}
+          <Tabsbar />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
